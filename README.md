@@ -5,7 +5,7 @@ This script is meant to backtest a simple RSI strategy across range of RSI windo
 
     Sell when RSI crosses from above to below 70
 
-## Results 
+## Testing  
 For each trade: Entry Date, Entry Price, Exit Price, Exit Date, Profit, Trade Duration, Max Drawdown
 
 In Total: Win Rate, Total Trades, Winning Trades, Losing Trades, Total Profit, Avg % per trade, Sortino Ratio, Greatest Max Drawdown
