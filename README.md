@@ -15,4 +15,4 @@ In Total: Win Rate, Total Trades, Winning Trades, Losing Trades, Total Profit, A
 2. Run the main.py file
 3. If you want to backtest all the files in the Data folder, input `y` 
 4. If you want to backtest only one file then input `n`, then input the filename. e.g., `CRUDEOIL-1Hour.csv`.
-6. After testing is done, results will be in `Backtested` folder and the optimized results will be in the main directory.
+6. After testing is done, results will be in `Backtested` folder and the optimized results will be saved in the main directory.
