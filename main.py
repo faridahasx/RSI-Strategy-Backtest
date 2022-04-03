@@ -192,13 +192,3 @@ if __name__ == '__main__':
         data = str(input('Dataname: '))
         for rsi in range(rsi_range[0],rsi_range[1]):
             tt, wt, lt, tp, appt, sr, gmd,wr = backtest_RSI(data,rsi)
-
-            print(
-                f'\nTotal Trades: {tt}'
-                f'\nWin Rate: {round(wr, 2)}%'
-                f'\nLosing Trades: {lt}'
-                f'\nWinning Trades: {wt}'
-                f'\nAvg % Per Trade: {round(appt, 2)}%'
-                f'\nSortino Ratio: {sr}'
-                f'\nGreatest Max Drawdown Value: {gmd}'
-            )
